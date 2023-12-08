@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site com Flexbox</title>
+</head>
+<body>
+   
+  <header>
+    <h1>Canoa Quebrada</h1>
+  </header>  
+  <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pousadas.html">Pousadas</a></li>
+        <li><a href="restaurantes.html">Restaurantes</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      
+    </ul>
+  </nav>
+  <main>
+    <div class="formularioContato">
+        
+      <form action="#" method="post" enctype="multipart/form-data">
+          <label>
+              <span><i class="icon icon-user-1"></i> Nome</span>
+              <input type="text" name="nome" required="">
+          </label>
+          
+          <label>
+              <span><i class="icon icon-email"></i> E-mail</span>
+              <input type="text" name="email" class="fade_8S">
+          </label>
+          <label>
+              <span><i class="icon icon-flag"></i> Assunto</span>
+              <input type="text" name="assunto" required="">
+          </label>
+          
+          <label>
+              <span><i class="icon icon-comment"></i> Mensagem</span>
+               <textarea name="mensagem" rows="3" required=""></textarea> 
+          </label>
+         
+          <input type="hidden" name="acao" value="enviar" />
+          <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+      
+      </form>
+  </div><!--Formulario Contato-->
+    </main>    
+       
+   <footer>
+    <p>&copy;2023 Meu Site</p>
+   </footer>    
+</body>
+</html>
